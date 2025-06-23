@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anime.js Animation</title>
+    <link rel="stylesheet" href="/src/style.css">
 </head>
 <body>
     <div class="large centered row">
@@ -26,9 +27,13 @@
     </div>
     <div class="medium row">
       <fieldset class="controls">
-        <button>rotations: 0</button>
+        <button id="rotation-button">rotations: 0</button>
       </fieldset>
     </div>
+    <button class="data-step" data-step="0">p0</button>
+    <button class="data-step" data-step="1">p1</button>
+    <button class="data-step" data-step="2">p2</button>
+    <div id="box1"><p>timeline</p></div>
     <script type="module" src="/src/main.ts"></script>
 </body>
 </html>
